@@ -16,6 +16,7 @@ export default function App(){
     <Nav/>
     <section id="home" className="scroll-mt-12"><Home/></section>
     <section id="about" className="scroll-mt-12"><About/></section>
+    {/* <section id="skills" className="scroll-mt-12"><Skill/></section> */}
     <section id="projects" className="scroll-mt-12"><Projects/></section>
     <section id="contact" className="scroll-mt-12"><Contact/></section>
     <section><Footer/></section>

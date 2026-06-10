@@ -1,14 +1,8 @@
 @import "tailwindcss";
 
 html, body, *{
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -ms-touch-select: none;
-    -webkit-user-select: none;
     --black-theme-bg: #000;
     scroll-behavior: smooth;
-    transition: all 0.3s ease-in-out;
 }
 html{
     background-color: var(--black-theme-bg);

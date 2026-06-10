@@ -59,7 +59,7 @@ export default function Contact(){
                 </div>
                 {/* right grid holder */}
                 <div className="shadow-lg shadow-slate-500 bg-slate-900/30 rounded-3xl my-10 py-8 px-4 md:py-12 md:px-10">
-                    <h3 className="font-bold text-2xl mb-4 text-center text-slate-200 text-shadow-md text-shadow-orange-500 md:text-3xl md:text-shadow-lg">Send me a Message</h3>
+                    <h3 className="font-bold text-2xl mb-4 text-center text-slate-200 md:text-3xl">Send me a Message</h3>
                     <form className="text-md text-slate-300 p-4 flex flex-col gap-3 md:text-lg md:gap-4" onSubmit={handleSubmit}>
                         {/* for name */}
                         <label htmlFor="name" className="font-bold text-lg md:text-xl">Your Name :</label>{" "}

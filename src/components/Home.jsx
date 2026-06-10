@@ -26,7 +26,7 @@ export default function Home(){
                     <p className="text-lg font-medium text-slate-300 md:text-xl">{siteconfig.heroSubTitle}</p>
 
                     {/* This is short intro for what you offer */}
-                    <p className="text-md max-w-md text-slate-400 leading-relaxed mb-2 text-center md:text-lg mx-auto">"{siteconfig.shortIntro}"</p>
+                    <p className="text-md max-w-md text-slate-400 leading-relaxed mb-2 text-center md:text-lg mx-auto">{siteconfig.shortIntro}</p>
 
                     {/* This is CTA Button */}
                     <a className="text-slate-300 font-bold rounded-lg px-4 py-2 w-fit mx-auto mt-2 text-shadow-md text-shadow-gray-900

@@ -14,7 +14,7 @@ export const siteconfig={
         {name: "facebook", url: "https://www.facebook.com/phyo.wai.aung.997975"},
         {name: "instagram", url: "https://www.instagram.com/phyowaiaung_leo"},
         {name: "github", url: "https://github.com/Leo15th"},
-        {name: "linkedin", url: "www.linkedin.com/in/phyo-wai-aung-1ba327405"},
+        {name: "linkedin", url: "https://www.linkedin.com/in/phyo-wai-aung-1ba327405"},
         {name: "upwork", url: "https://www.upwork.com/freelancers/~0182e7fa9e41df0122?mp_source=share"},
         {name: "email", url: "mailto:pwaiaung2023@gmail.com"}
     ],
@@ -40,29 +40,29 @@ export const siteconfig={
       ]
     },
     {
-      title: "To-Do List App",
+      title: "Fatty House Restaurant Website",
       description: "A simple productivity app with task management.",
-      img: "./project1.png",
-      imgAlt: "Responsive To-Do List Application Picture with laptop and mobile",
-      tech: "HTML, CSS, Vanilla JavaScript, GitHub Pages",
+      img: "./project2.png",
+      imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
+      tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
       links: [
-        { label: "Live Demo", url: "https://leo15th.github.io/To-Do-List/" },
-        { label: "GitHub", url: "https://github.com/Leo15th/To-Do-List" }
+        { label: "Live Demo", url: "https://fattyhouse.netlify.app/" },
+        { label: "GitHub", url: "https://github.com/Leo15th/Fatty-House" }
       ]
     }
     ],
 
     // contact section
     contactLinks: [
-      {name: "email", url: "mailto: pwaiag2023@gmail.com", text:"contact me"},
-      {name: "phone", url: "tel: +6649407681", text:"Call Me"},
-      {name: "address", url: "https://maps.app.goo.gl/GaQMKKDhhXSd6MLL9" , text: "My Address"}
+      {name: "email", url: "mailto:pwaiag2023@gmail.com", text:"pwaiag2023@gmail.com"},
+      {name: "phone", url: "tel:+6649407681", text:"+66949407681"},
+      {name: "address", url: "https://maps.app.goo.gl/GaQMKKDhhXSd6MLL9" , text: "Click to see"}
     ],
     contactSocialLinks: [
       {name: "facebook", url: "https://www.facebook.com/phyo.wai.aung.997975"},
       {name: "instagram", url: "https://www.instagram.com/phyowaiaung_leo"},
       {name: "github", url: "https://github.com/Leo15th"},
-      {name: "linkedin", url: "www.linkedin.com/in/phyo-wai-aung-1ba327405"},
+      {name: "linkedin", url: "https://www.linkedin.com/in/phyo-wai-aung-1ba327405"},
       {name: "upwork", url: "https://www.upwork.com/freelancers/~0182e7fa9e41df0122?mp_source=share"},
     ]
 
