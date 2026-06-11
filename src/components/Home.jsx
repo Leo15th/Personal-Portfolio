@@ -31,7 +31,7 @@ export default function Home(){
                     {/* This is CTA Button */}
                     <a className="text-slate-300 font-bold rounded-lg px-4 py-2 w-fit mx-auto mt-2 text-shadow-md text-shadow-gray-900
              bg-amber-600 transition-all duration-300 ease-in-out
-             hover:bg-amber-600 hover:scale-110 cursor-pointer text-md md:text-lg" href="#projects">{siteconfig.heroBtnText}</a>
+             hover:bg-amber-600 hover:scale-110 cursor-pointer text-md md:text-lg" href="#projects" id="cta-btn" aria-label="cta-btn to view projects">{siteconfig.heroBtnText}</a>
 
                     {/* Social icons */}
                     <ul className="flex gap-5 mt-6 font-extrabold mx-auto text-slate-300">
@@ -39,7 +39,10 @@ export default function Home(){
                             siteconfig.socialLinks.map((link, index)=>(
                                 <li key={index} className="text-4xl transition-all duration-300 ease-in-out hover:text-amber-400 hover:scale-125 md:text-4xl">
                                     <a 
-                                    href={link.url}>
+                                    href={link.url} 
+                                    aria-label={icons[link.name]}
+                                    target="_blank"
+                                    rel="noopener noreferrer">
                                         {icons[link.name]}
                                     </a>
                                 </li>
