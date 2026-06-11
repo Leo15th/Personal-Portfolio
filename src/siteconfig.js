@@ -18,7 +18,7 @@ export const siteconfig={
         {name: "upwork", url: "https://www.upwork.com/freelancers/~0182e7fa9e41df0122?mp_source=share"},
         {name: "email", url: "mailto:pwaiaung2023@gmail.com"}
     ],
-    heroImage: "./profile.png",//change the photo for hero image
+    heroImage: "./profile.webp",//change the photo for hero image
     
     //about section >
     firstParaText: "I’m Phyo Wai Aung, an aspiring frontend developer passionate about building responsive and modern user interfaces. My main tools are React, TailwindCSS, and JavaScript, which I use to turn ideas into clean, functional code.",// change the text
@@ -31,7 +31,7 @@ export const siteconfig={
     {
       title: "Fatty House Restaurant Website",
       description: "A responsive restaurant landing page built with HTML, TailwindCSS and JavaScript.",
-      img: "./project2.png",
+      img: "./project2.webp",
       imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
       tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
       links: [
@@ -42,7 +42,7 @@ export const siteconfig={
     {
       title: "To-Do List App",
       description: "A responsive to-do app built with HTML, CSS and Vanilla JavaScript.",
-      img: "./project1.png",
+      img: "./project1.webp",
       imgAlt: "Responsive To-Do List Application Picture with laptop and mobile",
       tech: "HTML, CSS, Vanilla JavaScript, GitHub Pages",
       links: [
