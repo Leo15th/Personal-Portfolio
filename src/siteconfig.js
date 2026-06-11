@@ -29,6 +29,17 @@ export const siteconfig={
     projectsIntro: "Here are some of the projects I’ve built to practice and showcase my frontend development skills. Each project focuses on responsive design, clean code, and usability.",//change text
     projects: [
     {
+      title: "Fatty House Restaurant Website",
+      description: "A responsive restaurant landing page built with HTML, TailwindCSS and JavaScript.",
+      img: "./project2.png",
+      imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
+      tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
+      links: [
+        { label: "Live Demo", url: "https://fattyhouse.netlify.app/" },
+        { label: "GitHub", url: "https://github.com/Leo15th/Fatty-House" }
+      ]
+    },
+    {
       title: "To-Do List App",
       description: "A responsive to-do app built with HTML, CSS and Vanilla JavaScript.",
       img: "./project1.png",
@@ -39,17 +50,6 @@ export const siteconfig={
         { label: "GitHub", url: "https://github.com/Leo15th/To-Do-List" }
       ]
     },
-    {
-      title: "Fatty House Restaurant Website",
-      description: "A responsive restaurant landing page built with HTML, TailwindCSS and JavaScript.",
-      img: "./project2.png",
-      imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
-      tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
-      links: [
-        { label: "Live Demo", url: "https://fattyhouse.netlify.app/" },
-        { label: "GitHub", url: "https://github.com/Leo15th/Fatty-House" }
-      ]
-    }
     ],
 
     // contact section
