@@ -30,7 +30,7 @@ export const siteconfig={
     projects: [
     {
       title: "To-Do List App",
-      description: "A simple productivity app with task management.",
+      description: "A responsive to-do app built with HTML, CSS and Vanilla JavaScript.",
       img: "./project1.png",
       imgAlt: "Responsive To-Do List Application Picture with laptop and mobile",
       tech: "HTML, CSS, Vanilla JavaScript, GitHub Pages",
@@ -41,7 +41,7 @@ export const siteconfig={
     },
     {
       title: "Fatty House Restaurant Website",
-      description: "A simple productivity app with task management.",
+      description: "A responsive restaurant landing page built with HTML, TailwindCSS and JavaScript.",
       img: "./project2.png",
       imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
       tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
