@@ -34,7 +34,7 @@ export default function Contact(){
                         <div>
                             {
                                 siteconfig.contactLinks.map((link, index)=>(
-                                    <a key={index} className="flex transition-all duration-300 ease-in-out text-slate-400 items-baseline capitalize gap-3 p-2 hover:text-amber-400 hover:cursor-pointer hover:scale-110 hover:font-bold text-md border w-full hover:my-1 rounded-2xl shadow-md hover:shadow-amber-400 md:gap-4 md:text-lg md:p-3 md:rounded-3xl" href={link.url}>
+                                    <a key={index} className="flex transition-all duration-300 ease-in-out text-slate-400 items-baseline capitalize gap-3 p-2 hover:text-amber-400 hover:cursor-pointer hover:scale-110 hover:font-bold text-md border w-full hover:my-1 rounded-2xl shadow-md hover:shadow-amber-400 md:gap-4 md:text-lg md:p-3 md:rounded-3xl" href={link.url} aria-label={link.name} target="_blank">
                                         <span aria-hidden="true">{icons[link.name]}</span>
                                         <span>{link.text}</span>
                                     </a>

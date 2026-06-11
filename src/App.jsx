@@ -13,13 +13,19 @@ import Footer from "./components/Footer"
 export default function App(){
   return(
     <>
-    <Nav/>
-    <section id="home" className="scroll-mt-12"><Home/></section>
-    <section id="about" className="scroll-mt-12"><About/></section>
-    {/* <section id="skills" className="scroll-mt-12"><Skill/></section> */}
-    <section id="projects" className="scroll-mt-12"><Projects/></section>
-    <section id="contact" className="scroll-mt-12"><Contact/></section>
-    <section><Footer/></section>
+    <header>
+      <Nav/>
+    </header>
+    <main>
+      <section id="home" className="scroll-mt-12"><Home/></section>
+      <section id="about" className="scroll-mt-12"><About/></section>
+      {/* <section id="skills" className="scroll-mt-12"><Skill/></section> */}
+      <section id="projects" className="scroll-mt-12"><Projects/></section>
+    </main>
+    <footer>
+      <section id="contact" className="scroll-mt-12"><Contact/></section>
+      <section><Footer/></section>
+    </footer>
     </>
   )
 }

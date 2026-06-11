@@ -36,7 +36,7 @@ export default function Nav(){
                 )
                 }
 
-                <button className="p-1 cursor-pointer hover:transform hover:scale-110 text-gray-100 lg:hidden" onClick={()=> setOpen(!open)}>
+                <button className="p-1 cursor-pointer hover:transform hover:scale-110 text-gray-100 lg:hidden" onClick={()=> setOpen(!open)} aria-label="Mobile Menu Bars">
                     {
                         open ? (<svg viewBox="0 0 24 24" width="50" height="50" className="w-9 h-9">
                         <path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" strokeWidth="2" />
