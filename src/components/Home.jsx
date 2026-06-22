@@ -52,7 +52,7 @@ export default function Home(){
                 </div>
                 {/* <div className="w-4/5 h-auto mx-auto md:w-3/5"> */}
                 <div className="w-4/5 h-auto mx-auto md:w-3/5 min-w-sm max-w-2xl ">
-                    <img src={siteconfig.heroImage} alt="profile photo" className="w-full object-cover object-center rounded-4xl bg-gray-700/20"/>
+                    <img src={siteconfig.heroImage} alt="profile photo" className="w-full object-cover object-center rounded-4xl bg-gray-700/20" fetchPriority="high"/>
                 </div>
             </div>
         </>

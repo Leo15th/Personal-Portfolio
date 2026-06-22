@@ -31,7 +31,7 @@ export const siteconfig={
     {
       title: "Fatty House Restaurant Website",
       description: "A responsive restaurant landing page built with HTML, TailwindCSS and JavaScript.",
-      img: "./project2.webp",
+      img: "./project1.webp",//need to edit
       imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
       tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
       links: [
@@ -42,7 +42,7 @@ export const siteconfig={
     {
       title: "To-Do List App",
       description: "A responsive to-do app built with HTML, CSS and Vanilla JavaScript.",
-      img: "./project1.webp",
+      img: "./project2.webp",//need to edit
       imgAlt: "Responsive To-Do List Application Picture with laptop and mobile",
       tech: "HTML, CSS, Vanilla JavaScript, GitHub Pages",
       links: [
