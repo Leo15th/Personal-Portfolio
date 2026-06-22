@@ -50,6 +50,17 @@ export const siteconfig={
         { label: "GitHub", url: "https://github.com/Leo15th/To-Do-List" }
       ]
     },
+    {
+      title: "Joy Cafe Website",
+      description: "A responsive coffee shop restaurant (full website) built with HTML, TailwindCSS and Vanilla JavaScript.",
+      img: "./project3.webp",
+      imgAlt: "Coffee shop website preview image",
+      tech: "HTML, CSS, Vanilla JavaScript, GitHub Pages",
+      links:[
+        { label: "Live Demo", url: "https://leo15th.github.io/Joy-Cafe/" },
+        { label: "GitHub", url: "https://github.com/Leo15th/Joy-Cafe" }
+      ]
+    }
     ],
 
     // contact section
