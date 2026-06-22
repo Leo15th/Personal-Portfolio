@@ -35,7 +35,7 @@ export const siteconfig={
       imgAlt: "Responsive Restaurant Landing Page with laptop and mobile view",
       tech: "HTML, TailwindCSS, Vanilla JavaScript, GitHub Pages",
       links: [
-        { label: "Live Demo", url: "https://fattyhouse.netlify.app/" },
+        { label: "Live Demo", url: "https://leo15th.github.io/Fatty-House/" },
         { label: "GitHub", url: "https://github.com/Leo15th/Fatty-House" }
       ]
     },
